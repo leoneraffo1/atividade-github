@@ -12,14 +12,13 @@ function carregar(){
         //Bom dia
         img.src ='Manha.jpg'
         document.body.style.background = "#e2cd9f"
-        
-    }else if(hora >= 12 && hora < 18){
-        //Boa tarde
+        }else if(hora >= 12 && hora < 18){
+        //Boa tarde pirimpirimpompom
         img.src ='Tarde.jpg'
         document.body.style.background = "#b9846f"
         
     }else {
-        //Boa noite
+        //Boa noite sabe que nois tem o dom
         img.src ='Noite.jpg'
         document.body.style.background = "#515154"
         
